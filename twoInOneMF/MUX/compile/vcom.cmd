@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/twoInOneMF/MUX/compile -s c:/My_Designs/twoInOneMF/library.cfg -j c:/My_Designs/twoInOneMF/MUX/projlib.cfg -work MUX -O3 -e 100 -work MUX -2002 c:/My_Designs/twoInOneMF/MUX/src/mux.vhd c:/My_Designs/twoInOneMF/MUX/src/muxtest.vhd 

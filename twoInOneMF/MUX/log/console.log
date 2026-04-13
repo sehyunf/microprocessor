@@ -1,0 +1,225 @@
+# Design: Design MUX already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Top-level unit(s) detected:
+# Entity => mux
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0078: muxtest.vhd : (50, 2): Unknown identifier "sel".
+# Error: COMP96_0133: muxtest.vhd : (50, 2): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+mux mux mux
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\twoInOneMF\MUX\src\wave.asdb
+#  오후 5:54, 2026년 4월 13일 월요일
+#  Simulation has been initialized
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+muxtest muxtest muxtest
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\twoInOneMF\MUX\src\wave.asdb
+#  오후 5:54, 2026년 4월 13일 월요일
+#  Simulation has been initialized
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/twoInOneMF/MUX/src/wave.asdb'.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Error: COMP96_0078: mux.vhd : (41, 15): Unknown identifier "x".
+# Error: COMP96_0078: mux.vhd : (41, 18): Unknown identifier "y".
+# Error: COMP96_0348: mux.vhd : (41, 15): Name on sensitivity list must denote a signal.
+# Error: COMP96_0348: mux.vhd : (41, 18): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: mux.vhd : (44, 4): Unknown identifier "mout".
+# Error: COMP96_0078: mux.vhd : (44, 12): Unknown identifier "x".
+# Error: COMP96_0133: mux.vhd : (44, 4): Cannot find object declaration.
+# Error: COMP96_0078: mux.vhd : (46, 4): Unknown identifier "mout".
+# Error: COMP96_0078: mux.vhd : (46, 12): Unknown identifier "y".
+# Error: COMP96_0133: mux.vhd : (46, 4): Cannot find object declaration.
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0039: muxtest.vhd : (53, 8): Incorrect syntax of signal assignment.
+# Error: COMP96_0039: muxtest.vhd : (55, 8): Incorrect syntax of signal assignment.
+# Compile failure 12 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Error: COMP96_0078: mux.vhd : (44, 4): Unknown identifier "mout".
+# Error: COMP96_0133: mux.vhd : (44, 4): Cannot find object declaration.
+# Error: COMP96_0078: mux.vhd : (46, 4): Unknown identifier "mout".
+# Error: COMP96_0133: mux.vhd : (46, 4): Cannot find object declaration.
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0039: muxtest.vhd : (53, 8): Incorrect syntax of signal assignment.
+# Error: COMP96_0039: muxtest.vhd : (55, 8): Incorrect syntax of signal assignment.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Error: COMP96_0617: mux.vhd : (44, 15): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Error: COMP96_0617: mux.vhd : (46, 15): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0039: muxtest.vhd : (53, 8): Incorrect syntax of signal assignment.
+# Error: COMP96_0039: muxtest.vhd : (55, 8): Incorrect syntax of signal assignment.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Error: COMP96_0617: mux.vhd : (44, 15): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Error: COMP96_0617: mux.vhd : (46, 15): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0039: muxtest.vhd : (53, 8): Incorrect syntax of signal assignment.
+# Error: COMP96_0039: muxtest.vhd : (55, 8): Incorrect syntax of signal assignment.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0039: muxtest.vhd : (53, 8): Incorrect syntax of signal assignment.
+# Error: COMP96_0039: muxtest.vhd : (55, 8): Incorrect syntax of signal assignment.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0039: muxtest.vhd : (53, 8): Incorrect syntax of signal assignment.
+# Error: COMP96_0039: muxtest.vhd : (55, 8): Incorrect syntax of signal assignment.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Error: COMP96_0018: mux.vhd : (34, 2): Identifier expected.
+# Compile Architecture "mux" of Entity "mux"
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0018: muxtest.vhd : (45, 2): Identifier expected.
+# Error: COMP96_0039: muxtest.vhd : (53, 8): Incorrect syntax of signal assignment.
+# Error: COMP96_0039: muxtest.vhd : (55, 8): Incorrect syntax of signal assignment.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0039: muxtest.vhd : (53, 8): Incorrect syntax of signal assignment.
+# Error: COMP96_0039: muxtest.vhd : (55, 8): Incorrect syntax of signal assignment.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Error: COMP96_0117: muxtest.vhd : (36, 20): Array type for "x1" is not constrained.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work MUX -2002  $dsn/src/mux.vhd $dsn/src/muxtest.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux" of Entity "mux"
+# Compile Entity "muxtest"
+# Compile Architecture "muxtest" of Entity "muxtest"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# KERNEL: Warning: KERNEL_0291 Object "/muxtest/x1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/muxtest/x2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/muxtest/y1" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/muxtest/sel1" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/twoInOneMF/MUX/src/wave.asdb'.
+run @200ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+muxtest muxtest muxtest
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4832 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\twoInOneMF\MUX\src\wave.asdb
+#  오후 6:13, 2026년 4월 13일 월요일
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/twoInOneMF/MUX/src/wave.asdb'.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
