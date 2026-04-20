@@ -1,0 +1,24 @@
+timestamp=1776672377230
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=7|0flipflop.mgf|985|0
+1=1|1flipflop.mgf|0|0
+3=1|3flipflop.mgf|0|0
+
+[dff]
+A/dff=21|../src/D_ff.vhd|39|1*0
+BinW64/dff=3*0
+I=0*491
+I/dff=0*985
+M=11|2|vf5|1776672377120|../src/D_ff.vhd|0*181*0x668671e4a13a4f5e6fc7004d6d9f3337ca7649a4|0*419*0x23b75c12e3e89f2ef000564498faa8c2
+M/dff=21|2|vf5|1776672377127|../src/D_ff.vhd|0*686*0xe6250d0e3c9ec35de435d6fc7b9a3d6188838d29|0*906*0x20116f55b147878295aeff36dce7fc50
+R=../src/D_ff.vhd|28
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|6a4f0a87167aa7fed99534ff2dffab1b4d3af7497913512c106c52f789364f8b
+Version/dff=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|6a4f0a87167aa7fed99534ff2dffab1bad1896dafca5ac1520dc1a4156513ac5
+
+[~U]
+dff=11|0*0|

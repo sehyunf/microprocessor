@@ -1,0 +1,11 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+flipflop=0
+[COMPILESTATUS|.\src\D_ff.vhd]
+FileTimeLow=790722349
+FileTimeHigh=31248540
+Status=Modified
+[COMPILESTATUS|.\src\D_ff.vhd]
+FileTimeLow=2549986207
+FileTimeHigh=31248541
+Status=Modified

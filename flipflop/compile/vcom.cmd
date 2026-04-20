@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/flipflop/compile -s c:/My_Designs/flipflop/library.cfg -j c:/My_Designs/flipflop/projlib.cfg -work flipflop -reorder -O3 -e 100 -work flipflop -2002 c:/My_Designs/flipflop/src/D_ff.vhd 

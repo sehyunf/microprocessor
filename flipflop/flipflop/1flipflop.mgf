@@ -1,0 +1,23 @@
+V 000044 55 649           1776672377136 dff
+(_unit VHDL(dff 0 28(dff 0 39))
+	(_version vf5)
+	(_time 1776672377137 2026.04.20 17:06:17)
+	(_source(\../src/D_ff.vhd\))
+	(_parameters tan)
+	(_code 91c5c39e96c6c38794c687cbc69795979797979795)
+	(_ent
+		(_time 1776672377121)
+	)
+	(_object
+		(_port(_int data -1 0 30(_ent(_in))))
+		(_port(_int clk -1 0 31(_ent(_in)(_event))))
+		(_port(_int reset -1 0 32(_ent(_in))))
+		(_port(_int q -1 0 33(_ent(_out))))
+		(_prcs
+			(line__42(_arch 0 0 42(_prcs(_trgt(3))(_sens(1)(0)(2))(_dssslsensitivity 1))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . dff 1 -1)
+)
