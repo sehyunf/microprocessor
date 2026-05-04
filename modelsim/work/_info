@@ -1,0 +1,87 @@
+m255
+K3
+13
+cModel Technology
+dC:\
+Ebi_buf
+Z0 w1777884701
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx8 synopsys 10 attributes 0 22 J^T`lPA_8_J<l8kQiVE]>2
+Z3 DPx4 ieee 14 std_logic_misc 0 22 >dU:RInm^_6_mBJ^<6QGY2
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\altera\13.0sp1\modelsim_ase\win32aloem\work
+Z7 8C:\altera\13.0sp1\modelsim_ase\win32aloem\work\buffer.vhd
+Z8 FC:\altera\13.0sp1\modelsim_ase\win32aloem\work\buffer.vhd
+l0
+L6
+VPb`H6B=JEiE30QOU49X6e2
+!s100 DUKdN]5T;jMKBT4^mZc8J3
+Z9 OV;C;10.1d;51
+32
+!i10b 1
+Z10 !s108 1777884753.668000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\altera\13.0sp1\modelsim_ase\win32aloem\work\buffer.vhd|
+Z12 !s107 C:\altera\13.0sp1\modelsim_ase\win32aloem\work\buffer.vhd|
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+DEx4 work 6 bi_buf 0 22 Pb`H6B=JEiE30QOU49X6e2
+l14
+L13
+V`h<b9HO]9Ao;?]9`n=aR<2
+!s100 U;_dMoJTLCKg2DmjQmY643
+R9
+32
+!i10b 1
+R10
+R11
+R12
+R13
+R14
+Eflag
+Z15 w1777883914
+R1
+R2
+R3
+R4
+R5
+R6
+Z16 8C:/altera/13.0sp1/modelsim_ase/win32aloem/work/flag.vhd
+Z17 FC:/altera/13.0sp1/modelsim_ase/win32aloem/work/flag.vhd
+l0
+L5
+Vfi2fm7Gj2KZY3LK5?lD`I0
+R9
+32
+Z18 !s108 1777883935.082000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/altera/13.0sp1/modelsim_ase/win32aloem/work/flag.vhd|
+Z20 !s107 C:/altera/13.0sp1/modelsim_ase/win32aloem/work/flag.vhd|
+R13
+R14
+!s100 A^8Td62[b^S@hS4KVOIHB0
+!i10b 1
+Abehavioral
+R1
+R2
+R3
+R4
+R5
+DEx4 work 4 flag 0 22 fi2fm7Gj2KZY3LK5?lD`I0
+l23
+L12
+VC[GiBl:845=M=ZjK9[J=52
+R9
+32
+R18
+R19
+R20
+R13
+R14
+!s100 8nMB`a0bU2_CiYL?G]05R1
+!i10b 1
