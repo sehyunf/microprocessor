@@ -1,0 +1,38 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=pc
+[Library]
+pc=.\pc\pc.lib
+[$LibMap$]
+pc=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/D-ff.vhd=-1
+/RCA.bde=-1
+/sync_counter.vhd=-1
+/program_counter.vhd=-1
+[Files.Data]
+.\src\D-ff.vhd=VHDL Source Code
+.\src\RCA.bde=Block Diagram
+.\src\sync_counter.vhd=VHDL Source Code
+.\src\program_counter.vhd=VHDL Source Code
+[file_out:/RCA.bde]
+/..\compile\RCA.vhd=-1
+[HierarchyViewer]
+HierarchyInformation=pc|pc|0 program_counter|arch_program_counter|0 rca|rca|0 sync_count|behavioral|0
+ShowHide=ShowTopLevel
+Selected=

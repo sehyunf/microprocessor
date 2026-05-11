@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/program/pc/compile -s c:/My_Designs/program/library.cfg -j c:/My_Designs/program/pc/projlib.cfg -work pc -O3 -e 100 -work pc -2002 c:/My_Designs/program/pc/src/D-ff.vhd ../compile/RCA.vhd c:/My_Designs/program/pc/src/sync_counter.vhd c:/My_Designs/program/pc/src/program_counter.vhd 
