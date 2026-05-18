@@ -1,0 +1,36 @@
+timestamp=1779093073909
+
+[~A]
+ModifyID=6
+Version=74
+
+[~MFT]
+0=4|0fsm.mgf|3171|208
+1=4|1fsm.mgf|3972|2814
+3=4|3fsm.mgf|1365|511
+
+[state]
+A/behavioral=A/BEHAVIORAL 21|../src/state.vhd|38|1*3972
+BinW64/behavioral=3*1365
+I=0*1348
+I/behavioral=I/BEHAVIORAL 0*3171
+M=11|2|vf5|1779092880107|../src/state.vhd|0*992*0xd55a90ea42df8c2ffab479288839955420668ae0|0*1273*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/BEHAVIORAL 21|2|vf5|1779093073864|../src/state.vhd|0*1545*0xecef289cfdbe90e88e89d5776b94d43a31c3317a|0*1824*0x20116f55b147878295aeff36dce7fc50
+R=../src/state.vhd|29
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|3168ca9bba58ccba11e166f8a5f366847936d9c31916e357030e73d3ba238beb
+Version/behavioral=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff47103ab0445aa002cc5cd3d3a55ff506e
+
+[state_machine]
+A/behav=21|../src/state_machine.vhd|10|1*2814
+BinW64/behav=3*511
+I=0*582
+I/behav=0*2960
+M=11|2|vf5|1779092322008|../src/fsm.vhd|0*219*0x11a9227d253df3dc19bbb92dccce5dcc771e9a5a|0*501*0x23b75c12e3e89f2ef000564498faa8c2
+M/behav=21|2|vf5|1779093073802|../src/state_machine.vhd|0*2121*0xd52eab18096cd91083ff2e6e7191a98119ca3f35|0*2860*0x20116f55b147878295aeff36dce7fc50
+R=../src/fsm.vhd|3
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|b9fdf3a4996cfb5c8e3b23a1ddc59db7f81beeabe666fd10925edcb4a6ff2e19a5a398509f7a2dfb8ccef0ef276423b7
+Version/behav=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|b5c4f9e89f0d95544b19889619d3647359360292a280ca13cf8b86d7a278d7d3
+
+[~U]
+state=11|0*787|
+state_machine=11|0*0|

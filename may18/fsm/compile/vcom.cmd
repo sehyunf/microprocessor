@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/may18/fsm/compile -s c:/My_Designs/may18/library.cfg -j c:/My_Designs/may18/fsm/projlib.cfg -work fsm -O3 -e 100 -work fsm -2002 c:/My_Designs/may18/fsm/src/state_machine.vhd c:/My_Designs/may18/fsm/src/state.vhd 

@@ -4,11 +4,11 @@ VCS=0
 version=4
 Current Config=compile
 [Configurations]
-compile=pc
+compile=fsm
 [Library]
-pc=.\pc\pc.lib
+fsm=.\fsm\fsm.lib
 [$LibMap$]
-pc=.
+fsm=.
 Active_lib=
 [Settings]
 FLOW_TYPE=HDL
@@ -21,18 +21,12 @@ ON_SERVERFARM_SIM=0
 [IMPLEMENTATION]
 UCF=
 [Files]
-/D-ff.vhd=-1
-/RCA.bde=-1
-/sync_counter.vhd=-1
-/program_counter.vhd=-1
+/state_machine.vhd=-1
+/state.vhd=-1
 [Files.Data]
-.\src\D-ff.vhd=VHDL Source Code
-.\src\RCA.bde=Block Diagram
-.\src\sync_counter.vhd=VHDL Source Code
-.\src\program_counter.vhd=VHDL Source Code
-[file_out:/RCA.bde]
-/..\compile\RCA.vhd=-1
+.\src\state_machine.vhd=VHDL Source Code
+.\src\state.vhd=VHDL Source Code
 [HierarchyViewer]
-HierarchyInformation=program_counter|behavioral|0
+HierarchyInformation=state_machine|behav|0
 ShowHide=ShowTopLevel
 Selected=
