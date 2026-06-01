@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy activeStimuliSetName="StimuliSet2">
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="000"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="00"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="01"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="11"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus6" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="111"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/CONTROL_LOGIC/OP"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus7" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="00"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus8" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="01"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus9" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus10" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="01"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus11" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="11"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/CONTROL_LOGIC/PSTATE"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet2">
+					<stimulus name="Stimulus1" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="110"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/CONTROL_LOGIC/OP"/>
+						</signals>
+					</stimulus>
+					<stimulus name="Stimulus2" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="00"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus3" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="01"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus4" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="Stimulus5" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="11"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/CONTROL_LOGIC/PSTATE"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

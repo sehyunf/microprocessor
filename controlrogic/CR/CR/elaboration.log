@@ -1,0 +1,35 @@
+Active-HDL 15.0.261.9132 2026-06-01 17:55:47
+
+Elaboration top modules:
+Architecture                  BEHAVIORAL(CONTROL_LOGIC)
+
+
+------------------------------------------------------------------------------------------------
+Entity        | Architecture | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+CONTROL_LOGIC | BEHAVIORAL   | CR      |      | 15.0.261.9132 (Windows64) | -O3
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+VHDL Package                 | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------
+standard                     | std     |      |                           | <unavailable>
+TEXTIO                       | std     |      | 15.0.261.9132 (Windows64) |  -2019
+std_logic_1164               | ieee    |      | 15.0.261.9132 (Windows64) |  -2008
+std_logic_misc               | ieee    |      | 15.0.261.9132 (Windows64) |  -2008
+std_logic_arith              | ieee    |      | 15.0.261.9132 (Windows64) | <unavailable>
+------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------
+Library                      | Comment
+------------------------------------------------------------------------------------------------
+CR                           | None
+ieee                         | Standard IEEE packages library
+std                          | Standard VHDL library
+------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+control_logic control_logic behavioral
+
+
+The performance of simulation is reduced. Version Student Edition
