@@ -1,0 +1,42 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=adder
+[Library]
+adder=.\adder\adder.lib
+[$LibMap$]
+adder=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/halfadder.vhd=-1
+/fulladder.bde=-1
+/fulladdersim.asdb=-1
+/fulladdersim.awc=-1
+/fourbitadder.bde=-1
+[Files.Data]
+.\src\halfadder.vhd=VHDL Source Code
+.\src\fulladder.bde=Block Diagram
+.\src\fulladdersim.asdb=Accelerated Waveform File
+.\src\fulladdersim.awc=Accelerated Waveform Configuration
+.\src\fourbitadder.bde=Block Diagram
+[file_out:/fulladder.bde]
+/..\compile\fulladder.vhd=-1
+[file_out:/fourbitadder.bde]
+/..\compile\fourbitadder.vhd=-1
+[HierarchyViewer]
+HierarchyInformation=fourbitadder|fourbitadder|0 fulladder|fulladder|0 halfadder|halfadder|0
+ShowHide=ShowTopLevel
+Selected=

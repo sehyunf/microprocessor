@@ -1,4 +1,4 @@
-Active-HDL 15.0.261.9132 2026-04-13 18:13:56
+Active-HDL 15.0.261.9132 2026-05-11 16:18:36
 
 Elaboration top modules:
 Architecture                  muxtest(muxtest)
@@ -7,8 +7,8 @@ Architecture                  muxtest(muxtest)
 -------------------------------------------------------------------------------------------
 Entity   | Architecture | Library | Info | Compiler Version          | Compilation Options
 -------------------------------------------------------------------------------------------
-muxtest  | muxtest      | MUX     |      | 15.0.261.9132 (Windows64) | -O3
-mux      | mux          | MUX     |      | 15.0.261.9132 (Windows64) | -O3
+muxtest  | muxtest      | mux     |      | 15.0.261.9132 (Windows64) | -O3
+mux      | mux          | mux     |      | 15.0.261.9132 (Windows64) | -O3
 -------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------
@@ -23,12 +23,6 @@ std_logic_1164          | ieee    |      | 15.0.261.9132 (Windows64) |  -2008
 Library                 | Comment
 -------------------------------------------------------------------------------------------
 ieee                    | Standard IEEE packages library
-MUX                     | None
+mux                     | None
 std                     | Standard VHDL library
 -------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+muxtest muxtest muxtest
-
-
-The performance of simulation is reduced. Version Student Edition

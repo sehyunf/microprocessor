@@ -27,6 +27,6 @@ UCF=
 .\src\mux.vhd=VHDL Source Code
 .\src\muxtest.vhd=VHDL Source Code
 [HierarchyViewer]
-HierarchyInformation=mux|mux|0 muxtest|muxtest|0
+HierarchyInformation=muxtest|muxtest|0
 ShowHide=ShowTopLevel
 Selected=

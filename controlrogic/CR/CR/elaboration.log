@@ -1,4 +1,4 @@
-Active-HDL 15.0.261.9132 2026-06-01 17:55:47
+Active-HDL 15.0.261.9132 2026-06-08 16:11:25
 
 Elaboration top modules:
 Architecture                  BEHAVIORAL(CONTROL_LOGIC)
@@ -7,7 +7,7 @@ Architecture                  BEHAVIORAL(CONTROL_LOGIC)
 ------------------------------------------------------------------------------------------------
 Entity        | Architecture | Library | Info | Compiler Version          | Compilation Options
 ------------------------------------------------------------------------------------------------
-CONTROL_LOGIC | BEHAVIORAL   | CR      |      | 15.0.261.9132 (Windows64) | -O3
+CONTROL_LOGIC | BEHAVIORAL   | cr      |      | 15.0.261.9132 (Windows64) | -O3
 ------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
@@ -23,13 +23,7 @@ std_logic_arith              | ieee    |      | 15.0.261.9132 (Windows64) | <una
 ------------------------------------------------------------------------------------------------
 Library                      | Comment
 ------------------------------------------------------------------------------------------------
-CR                           | None
+cr                           | None
 ieee                         | Standard IEEE packages library
 std                          | Standard VHDL library
 ------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+control_logic control_logic behavioral
-
-
-The performance of simulation is reduced. Version Student Edition

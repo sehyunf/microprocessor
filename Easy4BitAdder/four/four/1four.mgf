@@ -1,0 +1,46 @@
+I 000045 55 709           1775465635084 four
+(_unit VHDL(four 0 30(four 0 40))
+	(_version vf5)
+	(_time 1775465635085 2026.04.06 17:53:55)
+	(_source(\../src/four.vhd\))
+	(_parameters tan)
+	(_code 0d0d0b0b0f5b5c1a0e091b570a0a080a0f0b0b0b5b)
+	(_ent
+		(_time 1775465635076)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{4~downto~0}~12 0 32(_array -1((_dto i 4 i 0)))))
+		(_port(_int A 0 0 32(_ent(_in))))
+		(_port(_int B 0 0 33(_ent(_in))))
+		(_port(_int SUM 0 0 34(_ent(_out))))
+		(_prcs
+			(line__43(_arch 0 0 43(_assignment(_trgt(2))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(STD_LOGIC_UNSIGNED))(ieee(std_logic_arith)))
+	(_model . four 1 -1)
+)
+V 000045 55 709           1775465824837 four
+(_unit VHDL(four 0 30(four 0 40))
+	(_version vf5)
+	(_time 1775465824838 2026.04.06 17:57:04)
+	(_source(\../src/four.vhd\))
+	(_parameters tan)
+	(_code 434140411615125440475519444446444145454515)
+	(_ent
+		(_time 1775465824835)
+	)
+	(_object
+		(_type(_int ~STD_LOGIC_VECTOR{3~downto~0}~12 0 32(_array -1((_dto i 3 i 0)))))
+		(_port(_int A 0 0 32(_ent(_in))))
+		(_port(_int B 0 0 33(_ent(_in))))
+		(_port(_int SUM 0 0 34(_ent(_out))))
+		(_prcs
+			(line__43(_arch 0 0 43(_assignment(_trgt(2))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(STD_LOGIC_UNSIGNED))(ieee(std_logic_arith)))
+	(_model . four 1 -1)
+)

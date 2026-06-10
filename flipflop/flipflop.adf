@@ -22,7 +22,9 @@ ON_SERVERFARM_SIM=0
 UCF=
 [Files]
 /D_ff.vhd=-1
-/D_ff.vhd=-1
 [Files.Data]
 .\src\D_ff.vhd=VHDL Source Code
-.\src\D_ff.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=dff|dff|0
+ShowHide=ShowTopLevel
+Selected=

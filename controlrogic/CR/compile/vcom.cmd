@@ -1,1 +1,1 @@
--w -d c:/My_Designs/controlrogic/CR/compile -s c:/My_Designs/controlrogic/library.cfg -j c:/My_Designs/controlrogic/CR/projlib.cfg -work CR -O3 -e 100 -work CR -2002 c:/My_Designs/controlrogic/CR/src/control_logic.vhd 
+-w -d C:/My_Designs/controlrogic/CR/compile -s C:/My_Designs/controlrogic/library.cfg -j C:/My_Designs/controlrogic/CR/projlib.cfg -work CR -O3 -e 100 -work CR -2002 C:/My_Designs/controlrogic/CR/src/control_logic.vhd 

@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/sehyunsWorkspace/adder/compile -s c:/My_Designs/sehyunsWorkspace/library.cfg -j c:/My_Designs/sehyunsWorkspace/adder/projlib.cfg -work adder -O3 -e 100 -work adder -2002 c:/My_Designs/sehyunsWorkspace/adder/src/halfadder.vhd ../compile/fulladder.vhd ../compile/fourbitadder.vhd 

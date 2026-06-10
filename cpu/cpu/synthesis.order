@@ -1,0 +1,7 @@
+i<>.\src\cpu.bde
+i<>.\src\acc.vhd
+i<>.\src\bi.vhd
+i<>.\src\mdr.vhd
+i<>.\src\ir.vhd
+i<>.\src\flag.vhd
+i<>.\src\p_counter.vhd

@@ -1,0 +1,12 @@
+.\src\control_logic.vhd
+.\src\state.vhd
+.\src\alu.vhd
+.\src\sync_counter.vhd
+.\src\mux.vhd
+.\src\acc.vhd
+.\src\bi.vhd
+.\src\mdr.vhd
+.\src\ir.vhd
+.\src\flag.vhd
+.\src\program_counter.vhd
+.\src\cpu.bde

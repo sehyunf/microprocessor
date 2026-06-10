@@ -1,0 +1,24 @@
+V 000043 55 681           1774256588631 ha
+(_unit VHDL(ha 0 28(ha 0 39))
+	(_version vf5)
+	(_time 1774256588632 2026.03.23 18:03:08)
+	(_source(\../src/ha.vhd\))
+	(_parameters tan)
+	(_code 1743161011404b0117130f4d47111f1116111f1116)
+	(_ent
+		(_time 1774256588627)
+	)
+	(_object
+		(_port(_int A -1 0 30(_ent(_in))))
+		(_port(_int B -1 0 31(_ent(_in))))
+		(_port(_int SUM -1 0 32(_ent(_out))))
+		(_port(_int Carry -1 0 33(_ent(_out))))
+		(_prcs
+			(line__42(_arch 0 0 42(_assignment(_trgt(2))(_sens(0)(1)))))
+			(line__43(_arch 1 0 43(_assignment(_trgt(3))(_sens(0)(1)))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_model . ha 2 -1)
+)

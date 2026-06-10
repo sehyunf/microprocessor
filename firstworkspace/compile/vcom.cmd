@@ -1,0 +1,1 @@
+-w -d D:/sehyun/workspace/firstworkspace/compile -s D:/sehyun/workspace/firstworkspace/library.cfg -j D:/sehyun/workspace/firstworkspace/projlib.cfg -work halfadder -reorder -O3 -e 100 -work halfadder -2002 D:/sehyun/workspace/firstworkspace/src/ha.vhd 

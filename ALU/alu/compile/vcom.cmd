@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/ALU/alu/compile -s c:/My_Designs/ALU/library.cfg -j c:/My_Designs/ALU/alu/projlib.cfg -work alu -O3 -e 100 -work alu -2002 c:/My_Designs/ALU/alu/src/alu.vhd 

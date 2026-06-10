@@ -1,0 +1,11 @@
+[Version]
+Version=15.0
+[Designs]
+four=.\four\four.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Expand]
+four=1

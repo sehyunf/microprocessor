@@ -1,0 +1,52 @@
+timestamp=1774861540468
+
+[~A]
+ModifyID=14
+Version=74
+
+[~MFT]
+0=17|0adder.mgf|6944|2186
+1=5|1adder.mgf|6483|4322
+2=0|2adder.mgf|3749|0
+3=4|3adder.mgf|1319|1042
+
+[fourbitadder]
+A/fourbitadder=24|../src/fourbitadder.bde|10000|1*6483
+I=0*5864
+I/fourbitadder=0*6944
+M=11|2|vf5|1774861540461|../compile/fourbitadder.vhd|0*5288*0x826cb355baa4f50479fc227d759e4ec75d853f3e|0*5771*0x23b75c12e3e89f2ef000564498faa8c2
+M/fourbitadder=21|2|vf5|1774861540463|../compile/fourbitadder.vhd|0*6068*0xbb7800a39ce6d64bdcf78109d273df955e6cbe98|0*6835*0x20116f55b147878295aeff36dce7fc50
+R=../compile/fourbitadder.vhd|24
+R/fourbitadder=../compile/fourbitadder.vhd|43
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|a54eeb611b199fae2141648297fbaa6f2cc966483e13b664c1c3c6b52b6a1f71aead818aeb6b3c4086fa8c82b7e1c0e4
+Version/fourbitadder=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|a54eeb611b199fae2141648297fbaa6f2cc966483e13b664c1c3c6b52b6a1f71aead818aeb6b3c4086fa8c82b7e1c0e4
+
+[fulladder]
+A/fulladder=24|../src/fulladder.bde|10000|1*5081
+BinW64/fulladder=3*1319
+I=0*1791
+I/fulladder=0*4815
+M=11|2|vf5|1774860553364|../compile/fulladder.vhd|0*1422*0x8350b345d93cf88081e0d887fabe3f03b00cc9f1|0*1704*0x23b75c12e3e89f2ef000564498faa8c2
+M/fulladder=21|2|vf5|1774861540422|../compile/fulladder.vhd|0*4178*0x0fbdd85fd3d8ed2114a12e6cef5a138fb0be3f51|0*4715*0x20116f55b147878295aeff36dce7fc50
+NSymbols/fulladder=40|0|2*3749
+R=../compile/fulladder.vhd|24
+R/fulladder=../compile/fulladder.vhd|34
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|c12a13e6fa1dde32095fc858f2c5d0a25fe0f6cc11f37d48b53e35433dff82a0bf1b503e7b7385b33cb9cd493886b3ff
+Version/fulladder=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|c12a13e6fa1dde32095fc858f2c5d0a25fe0f6cc11f37d48b53e35433dff82a07b00fd6ec560e9d46aa3b09c499d2277
+
+[halfadder]
+A/halfadder=21|../src/halfadder.vhd|39|1*4322
+BinW64/halfadder=3*1042
+I=0*531
+I/halfadder=0*3967
+M=11|2|vf5|1774859725881|../src/halfadder.vhd|0*190*0xf0fd4d1eac0d2fe927005b9971815856d695164d|0*448*0x23b75c12e3e89f2ef000564498faa8c2
+M/halfadder=21|2|vf5|1774861540383|../src/halfadder.vhd|0*732*0x23c0a6b0fb64e84a5becb518eac22f5347e2cc58|0*924*0x20116f55b147878295aeff36dce7fc50
+NSymbols/halfadder=40|0|2*0
+R=../src/halfadder.vhd|28
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|df6222d8a183af79470a1a0a11a371eb1093b6854768ed9664634ca9f9371c7bf22c7be9ec55dfbbca61e66650a9ab01
+Version/halfadder=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|df6222d8a183af79470a1a0a11a371eb1093b6854768ed9664634ca9f9371c7bf3eead7ee4e9bec50fe2f5887493cea1
+
+[~U]
+fourbitadder=11|0*5060|
+fulladder=11|0*1231||0x3
+halfadder=11|0*0||0x3

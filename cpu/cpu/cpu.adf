@@ -1,0 +1,80 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=cpu
+[Library]
+cpu=.\cpu\cpu.lib
+[$LibMap$]
+cpu=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/control_logic.vhd=-1
+/state.vhd=-1
+/alu.vhd=-1
+/sync_counter.vhd=-1
+/mux.vhd=-1
+/acc.vhd=-1
+/bi.vhd=-1
+/mdr.vhd=-1
+/ir.vhd=-1
+/flag.vhd=-1
+/program_counter.vhd=-1
+/cpu.bde=-1
+/fetch.asdb=-1
+/fetch.awc=-1
+/skip_if_zero.asdb=-1
+/skip_if_zero.awc=-1
+/store.asdb=-1
+/store.awc=-1
+/add.asdb=-1
+/add.awc=-1
+/jump.asdb=-1
+/jump.awc=-1
+/and_xor_load.asdb=-1
+/and_xor_load.awc=-1
+[Files.Data]
+.\src\control_logic.vhd=VHDL Source Code
+.\src\state.vhd=VHDL Source Code
+.\src\alu.vhd=VHDL Source Code
+.\src\sync_counter.vhd=VHDL Source Code
+.\src\mux.vhd=VHDL Source Code
+.\src\acc.vhd=VHDL Source Code
+.\src\bi.vhd=VHDL Source Code
+.\src\mdr.vhd=VHDL Source Code
+.\src\ir.vhd=VHDL Source Code
+.\src\flag.vhd=VHDL Source Code
+.\src\program_counter.vhd=VHDL Source Code
+.\src\cpu.bde=Block Diagram
+.\src\fetch.asdb=Accelerated Waveform File
+.\src\fetch.awc=Accelerated Waveform Configuration
+.\src\skip_if_zero.asdb=Accelerated Waveform File
+.\src\skip_if_zero.awc=Accelerated Waveform Configuration
+.\src\store.asdb=Accelerated Waveform File
+.\src\store.awc=Accelerated Waveform Configuration
+.\src\add.asdb=Accelerated Waveform File
+.\src\add.awc=Accelerated Waveform Configuration
+.\src\jump.asdb=Accelerated Waveform File
+.\src\jump.awc=Accelerated Waveform Configuration
+.\src\and_xor_load.asdb=Accelerated Waveform File
+.\src\and_xor_load.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=control_logic|behavioral|0
+ShowHide=ShowTopLevel
+Selected=
+[file_out:/fulladder.bde]
+/..\compile\fulladder.vhd=-1
+[file_out:/cpu.bde]
+/..\compile\cpu.vhd=-1

@@ -1,0 +1,482 @@
+# Design: Design adder already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work adder -2002  $dsn/src/halfadder.vhd
+# Compile Entity "halfadder"
+# Compile Architecture "halfadder" of Entity "halfadder"
+# Top-level unit(s) detected:
+# Entity => halfadder
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work adder -2002  $dsn/src/halfadder.vhd
+# Compile Entity "halfadder"
+# Compile Architecture "halfadder" of Entity "halfadder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+acom -O3 -e 100 -work adder -2002  $dsn/src/fulladder.bde
+# DRC: Checking file "C:/My_Designs/sehyunsWorkspace/adder/src/fulladder.bde".
+# DRC: fulladder.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 170 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:/My_Designs/sehyunsWorkspace/adder/compile/fulladder.vhd from c:/My_Designs/sehyunsWorkspace/adder/src/fulladder.bde...
+# Generation successful
+# Compile Entity "fulladder"
+# Compile Architecture "fulladder" of Entity "fulladder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+acom -O3 -e 100 -work adder -2002  $dsn/src/halfadder.vhd $dsn/src/fulladder.bde
+# Compile Entity "halfadder"
+# Compile Architecture "halfadder" of Entity "halfadder"
+# Compile Entity "fulladder"
+# Compile Architecture "fulladder" of Entity "fulladder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+fulladder fulladder fulladder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5854 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\sehyunsWorkspace\adder\src\wave.asdb
+#  오후 5:53, 2026년 3월 30일 월요일
+#  Simulation has been initialized
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/sehyunsWorkspace/adder/src/wave.asdb'.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Waveform file 'c:/My_Designs/sehyunsWorkspace/adder/src/fulladdersim.awc' connected to 'c:/My_Designs/sehyunsWorkspace/adder/src/fulladdersim.asdb'.
+# Adding file c:\My_Designs\sehyunsWorkspace\adder\src\fulladdersim.asdb ... Done
+# Adding file c:\My_Designs\sehyunsWorkspace\adder\src\fulladdersim.awc ... Done
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+acom -O3 -e 100 -work adder -2002  $dsn/src/halfadder.vhd $dsn/src/fulladder.bde $dsn/src/fourbitadder.bde
+# DRC: Checking file "C:/My_Designs/sehyunsWorkspace/adder/src/fourbitadder.bde".
+# DRC: fourbitadder.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 159 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:/My_Designs/sehyunsWorkspace/adder/compile/fourbitadder.vhd from c:/My_Designs/sehyunsWorkspace/adder/src/fourbitadder.bde...
+# Generation successful
+# Compile Entity "halfadder"
+# Compile Architecture "halfadder" of Entity "halfadder"
+# Compile Entity "fulladder"
+# Compile Architecture "fulladder" of Entity "fulladder"
+# Compile Entity "fourbitadder"
+# Compile Architecture "fourbitadder" of Entity "fourbitadder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+fourbitadder fourbitadder fourbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\sehyunsWorkspace\adder\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+#  오후 6:05, 2026년 3월 30일 월요일
+#  Simulation has been initialized
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+run @100ns
+# VSIM: Error: 100ns is less than current simulation time.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# VSIM: 14 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/sehyunsWorkspace/adder/src/wave.asdb'.
+run @100ns
+# VSIM: Error: 100ns is less than current simulation time.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+fourbitadder fourbitadder fourbitadder
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\sehyunsWorkspace\adder\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  오후 6:09, 2026년 3월 30일 월요일
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/sehyunsWorkspace/adder/src/wave.asdb'.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\sehyunsWorkspace\adder\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  오후 6:11, 2026년 3월 30일 월요일
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/sehyunsWorkspace/adder/src/wave.asdb'.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.
+# Warning: Could not write to "c:/My_Designs/sehyunsWorkspace/adder/bde.set" file.

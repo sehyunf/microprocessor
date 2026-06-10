@@ -1,0 +1,1 @@
+-w -d c:/My_Designs/Easy4BitAdder/four/compile -s c:/My_Designs/Easy4BitAdder/library.cfg -j c:/My_Designs/Easy4BitAdder/four/projlib.cfg -work four -O3 -e 100 -work four -2002 c:/My_Designs/Easy4BitAdder/four/src/four.vhd 
